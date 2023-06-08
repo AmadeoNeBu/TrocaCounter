@@ -1,0 +1,139 @@
+* {
+  font-family: Roboto, Arial;
+  margin: 0;
+  color: white;
+  padding: 0;
+}
+
+
+.bg-image1 {
+  position: absolute;
+  height: 100%;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  /* Margin auto center the elemnt to its container */
+  margin-left: auto;
+  margin-right: auto;
+  filter: blur(4px);
+
+
+}
+
+
+.bg-of-bg {
+  background-color: rgb(198, 0, 56);
+  opacity: 0.7;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  position:fixed;
+
+}
+
+.container-h1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #000000; 
+  border: 2px;
+  font-size: 60px;
+  /* new skill unlocked, this is to make borders on text (shadows also work but is more code) */
+  -webkit-text-stroke: 2px rgb(255, 255, 255);
+  padding-top: 20px;
+}
+
+
+.container-h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 20px;
+
+}
+
+.contorn-h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border: solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 5px;
+  height: 120px; 
+  width: 120px;
+  width: 120px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+
+
+}
+
+h2 {
+  
+  text-align: center;
+  color: #ff0000; 
+  border: 5px;
+  font-size: 95px;
+  /* new skill unlocked, this is to make borders on text (shadows also work but is more code) */
+  -webkit-text-stroke: 2px rgb(255, 255, 255);
+  margin-bottom: 1%;
+
+}
+
+.flex-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+button {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  height: 70px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  margin: 0 20px 1% 20px;
+  font-size: 20px;
+  border: solid;
+  border-color: black;
+  box-shadow: 1px 1px 5px black;
+  cursor: pointer;
+  
+}
+
+button:active {
+  opacity: 95%;
+}
+
+
+
+/* aca uso hastag porque increment-btn es un id, no un class */
+#increment-btn {
+  background: darkred;
+}
+
+#save-btn {
+  background: darkgreen;
+
+}
+
+
+#save-el {
+  text-align: center;
+  font-weight: bold;
+}

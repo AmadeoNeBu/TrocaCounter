@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <link rel="stylesheet" href="./troca.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+  
+
+
+
+  <!-- Setting the Backgrounds -->
+  <img src="./multimedia/las-kukis.png" alt="" class="bg-image1">
+  <div class="bg-of-bg"></div>
+
+  <!-- Title -->
+  <div class="container-h1">
+    <h1>Parroquianos who entered to las Kukis:</h1> 
+  </div>
+ 
+  <!-- Count -->
+  <div class="container-h2">
+    <div class="contorn-h2">
+      <h2 id="count-el">0</h2>
+    </div>
+  </div>
+
+
+  <!-- Buttons -->
+  <div class="flex-btn">
+    <!-- ONCLICK: its like a property that triggers a function from our javascript when we click at the button -->
+    <button id="increment-btn" onclick="increment()">INCREMENT</button>
+    <!-- reference a javascript file -->
+ 
+
+    <button id="save-btn" onclick="save()">SAVE</button>
+  </div>
+
+
+  <p id="save-el">Previous entries: &nbsp </p>
+
+
+  <script src="./troca.js"></script>
+</html>
